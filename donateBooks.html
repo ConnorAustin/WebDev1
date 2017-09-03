@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hope Now - Nashville Book Drive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  
+  <style>
+    .progress {
+      margin-top: 20px;
+    }
+    
+    .progress-bar {
+      background-color: #74EA6F;
+    }
+    
+    button {
+      background-color: #F1F0F0;
+      color: #ff7575;
+    }
+  </style>
+</head>
+<body>
+
+<!--Main navigation-->
+<nav style="margin-bottom: 0" class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="hidden-xs nav navbar-nav" style="width: 100%">
+      <li><a href="home.html" style="padding: 0; margin: 0;"><img class="hopeNowLogo" src="images/HopeNOWLogo.png" style="width: 129px;"></a></li>
+      <li style="width: calc(100% - 372px);"><input placeholder="Search . . ."></li>
+      <li style="float: right; position: relative; top: 3px"><a href="join.html" style="font-size: 134%;">Sign Up</a></li>
+      <li style="float: right; position: relative; top: 3px"><a href="signin.html" style="font-size: 134%;">Sign In</a></li>
+    </ul>
+    <ul class="visible-xs nav navbar-nav" style="width: 100%">
+      <li style="display: inline;"><img class="hopeNowLogo" src="images/HopeNOWLogo.png"></li>
+      <li style="font-size: 20px; float: right; position: relative; top: -3px"><a href="join.html">Sign Up</a></li>
+      <li style="font-size: 20px; float: right; position: relative; top: -3px"><a href="signin.html">Sign In</a></li>
+    </ul>
+    <div class="centerContent"><input class="visible-xs" placeholder="Search . . ."></div>
+  </div>
+</nav>
+
+<!--Sub navigation-->
+<div class="subNav visible-xs well container-fluid">
+  <button id="mobileMenu" data-toggle="collapse" data-target="#myNavbar"></button>
+  <div class="collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li><a href="home.html" class="mainLink">Home</a></li>
+      <li><a href="missions.html" class="mainLink">Missions</a></li>
+      <li><a href="about.html" class="mainLink">About</a></li>
+      <li><a href="missionCreate.html" class="mainLink">Start a Mission</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--Sub Mobile navigation-->
+<div class="subNav hidden-xs well" style="display: flex; justify-content: space-around;">
+  <span><a href="home.html" class="mainLink">Home</a></span>
+  <span><a href="missions.html" class="mainLink">Missions</a></span>
+  <span><a href="about.html" class="mainLink">About</a></span>
+  <span><a href="missionCreate.html" class="mainLink">Start a Mission</a></span>
+</div>
+
+<div class="container salmon" style="border-radius: 5px;">
+  <span><h2>Nashville Book Drive</h2>
+  <h4>Nashville, TN</h4></span>
+  <button class="btn">Volunteer</button> <button class="btn">Donate</button>
+  <div class="progress">
+    <div>
+      <div class="progress-bar" role="progressbar" aria-valuenow="80"
+      aria-valuemin="0" aria-valuemax="100" style="width:80%">Goal Price
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container notSalmon" style="margin-top: 20px; margin-bottom: 20px;">
+  <img align="right" class="hidden-xs" src="images/bookDrive.jpeg" style="border-radius: 5px; padding-top: 20px; margin-left: 61px;" width="260" height="260">
+  <p style="text-align: justify; font-size:25px;  padding-top: 20px;">needs new and like-new books for children ages 6 to 12, bookcases, reading incentive giveaways for elementary school children 
+  (50+ small items), four desk or floor lamps, packing materials (tape guns and boxes), and office supplies</p>
+</div>
+
+<!--Social links-->
+<footer>
+  <div class="socialLinks slideInChildren centerContent">
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/TwitterLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/InstagramLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/FacebookLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/GooglePlusLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/GmailLogo.png"/></a>
+  </div>
+  <div style="padding: 5px; padding-left: 30px; padding-right: 30px; background-color: #FF7575; color: #F1F0F0; font-size: 15px;">
+    <div class="centerContent"><img src="images/HopeNOW-BrightLogo.png" style="width: 142px; height: 50px"></div>
+    <div class="centerContent"><small>Copyright &copy; 2015 Hope NOW</small></div>
+    <div class="centerContent"><small style="float: right">(615) 806-4822</small></div>
+  </div>
+</footer>
+<script src="scripts/slidein.js"></script>
+</body>

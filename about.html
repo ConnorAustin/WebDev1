@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hope Now - About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  
+  <style>
+    .notSalmon {
+    	color: #ff7575;
+  	}
+    
+    .padding {
+      padding: 40px;
+    }
+    
+    .btn {
+      width: 157px;
+      height: 51px;
+      font-size: 19px;
+    }
+  </style>
+</head>
+<body>
+
+<!--Main navigation-->
+<nav style="margin-bottom: 0" class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="hidden-xs nav navbar-nav" style="width: 100%">
+      <li><a href="home.html" style="padding: 0; margin: 0;"><img class="hopeNowLogo" src="images/HopeNOWLogo.png" style="width: 129px;"></a></li>
+      <li style="width: calc(100% - 372px);"><input placeholder="Search . . ."></li>
+      <li style="float: right; position: relative; top: 3px"><a href="join.html" style="font-size: 134%;">Sign Up</a></li>
+      <li style="float: right; position: relative; top: 3px"><a href="signin.html" style="font-size: 134%;">Sign In</a></li>
+    </ul>
+    <ul class="visible-xs nav navbar-nav" style="width: 100%">
+      <li style="display: inline;"><img class="hopeNowLogo" src="images/HopeNOWLogo.png"></li>
+      <li style="font-size: 20px; float: right; position: relative; top: -3px"><a href="join.html">Sign Up</a></li>
+      <li style="font-size: 20px; float: right; position: relative; top: -3px"><a href="signin.html">Sign In</a></li>
+    </ul>
+    <div class="centerContent"><input class="visible-xs" placeholder="Search . . ."></div>
+  </div>
+</nav>
+
+<!--Sub navigation-->
+<div class="subNav visible-xs well container-fluid">
+  <button id="mobileMenu" data-toggle="collapse" data-target="#myNavbar"></button>
+  <div class="collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li><a href="home.html" class="mainLink">Home</a></li>
+      <li><a href="missions.html" class="mainLink">Missions</a></li>
+      <li><a href="about.html" class="mainLink">About</a></li>
+      <li><a href="missionCreate.html" class="mainLink">Start a Mission</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--Sub Mobile navigation-->
+<div class="subNav hidden-xs well" style="display: flex; justify-content: space-around;">
+  <span><a href="home.html" class="mainLink">Home</a></span>
+  <span><a href="missions.html" class="mainLink">Missions</a></span>
+  <span><a href="about.html" class="mainLink">About</a></span>
+  <span><a href="missionCreate.html" class="mainLink">Start a Mission</a></span>
+</div>
+
+<div class="container">
+  <div class="slideIn salmon jumbotron">
+    <h1>About Us</h1>
+    <p style = "font-size: 27px">There are a lot of problems in our society.
+    Lots of social entrepreneurs are willing to help solve them but don’t 
+    have the tools or resources to start working on the problem.</p>
+  </div>
+  <div class="slideInChildren padding" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+    <div class>
+      <img src="images/coolSelfie.jpg" width="200" style="border-radius: 108px;">
+    </div>
+    <div class="padding" style="width: 505px; color: #FF7575">
+      <h3 style="font-size: 42px;">Founders</h3>
+      <p style="font-size: 19px; text-align: justify;">In 2015 to Lipscomb college Sophomores met and bonded over their love of charities. They
+          then descided to build a crowdfunding platform to help fund themselves and other social entrepreneurs. </p>
+    </div>
+  </div>
+  
+   <div class="slideIn salmon jumbotron">
+    <h1>Where We Come In</h1>
+    <p style = "font-size: 27px">Here at HOPE NOW! Our vision is to empower and connect capable social entrepreneurs
+       in order to help them address problems in their society. </p>
+    <p style = "font-size: 27px">We aid their mission by first helping them to create a  coherent strategy then give them a platform 
+       to campaign for their cause.</p>
+	 </div>
+	 
+   <div class = "slideIn notSalmon jumbotron">
+    <h1>Process</h1>
+    <div class="row" style = "margin-top: 20px;">
+    <div class="col-sm-4">
+      <h2>Step 1</h2>
+      <p style = "font-size: 27px"> Someone finds a problem that they want to solve. </p>
+    </div>
+    <div class="col-sm-4">
+      <h2>Step 2</h2>
+      <p style = "font-size: 27px">They campaign on our crowdfunding platform. </p>
+    </div>
+    <div class="col-sm-4">
+      <h2>Step 3</h2>        
+      <p style = "font-size: 27px">Our community of volunteers vote on the solutions they find viable.</p>
+    </div>
+  </div>
+  <div class="centerContent" style="padding-bottom: 20px; margin-top: 40px">
+      <a href="missionCreate.html"><button class="btn btn-secondary" style="background-color: #FF7575; color: #F1F0F0;">Start A Mission!</button></a>
+  </div>
+  </div>
+</div>
+<!--Social links-->
+<footer>
+  <div class="socialLinks slideInChildren centerContent">
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/TwitterLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/InstagramLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/FacebookLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/GooglePlusLogo.png"/></a>
+    <a href="https://twitter.com/OfficialHopeNOW"><img src="images/GmailLogo.png"/></a>
+  </div>
+  <div style="padding: 5px; padding-left: 30px; padding-right: 30px; background-color: #FF7575; color: #F1F0F0; font-size: 15px;">
+    <div class="centerContent"><img src="images/HopeNOW-BrightLogo.png" style="width: 142px; height: 50px"></div>
+    <div class="centerContent"><small>Copyright &copy; 2015 Hope NOW</small></div>
+    <div class="centerContent"><small style="float: right">(615) 806-4822</small></div>
+  </div>
+</footer>
+<script src="scripts/slidein.js"></script>
+</body>

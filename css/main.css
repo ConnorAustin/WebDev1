@@ -1,0 +1,223 @@
+::-webkit-input-placeholder {
+  color:    #BBB;
+}
+
+:-moz-placeholder {
+    color:    #ABABAB;
+}
+
+::-moz-placeholder {
+    color:    #ABABAB;
+}
+
+:-ms-input-placeholder {
+    color:    #ABABAB;
+}
+
+h2 {
+  font-size: 190%;
+}
+
+h4 {
+  font-size: 124%;
+}
+
+input {
+  color: #333;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #F1F0F0;
+}
+
+.salmon {
+  background-color: #FF7575 !important;
+  color: #F4EDED !important;
+}
+
+.notSalmon {
+  color: #ff7575 !important;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+}
+
+.slideIn {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.slideInAnim {
+  opacity: 1;
+  transition: transform 0.4s, opacity 1s;
+  transform: translateY(0px);
+}
+
+.subNav {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #EC6464;
+  background-color: #FF7575;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.missionOfTheMonth {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.missionImageContainer {
+  border-radius: 2px;
+  background-color: #FF7575;
+  border: 1px solid #FF7575;
+  width: 154px;
+  height: 172px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.missionImage {
+  padding-top: 50px;
+  border-radius: 5px;
+}
+
+.missionImageCol {
+  text-align: center;
+  padding: 10px;
+}
+
+.missionImageLocation {
+  display: block;
+  position: relative;
+  left: 16px;
+  bottom: 20px;
+  text-align: left;
+}
+
+.missionImageHeader {
+  color: #ededed;
+}
+
+.navbar {
+  border-radius: 0;
+  background-color: #F1F0F0;
+  border-color: #E6BDBD;
+}
+
+.well {
+  border-radius: 0;
+}
+
+.socialLinks {
+  background-color: #FF7575;
+  border-top: 2px solid #C66A6A;
+  overflow-x: hidden;
+}
+
+.socialLinks a {
+  transition: 0.4s transform;
+}
+
+.socialLinks a:hover {
+  transform: translateY(-5px);
+}
+
+.socialLinks img {
+  width: 40px;
+  margin: 20px;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid #D9D2D2;
+  background-color: #FDFDFD;
+  height: 40px;
+  width: calc(100% - 50px);
+  font-size: 23px;
+  text-align: center;
+}
+
+.fileInput {
+  border: 0 !important;
+  background-color: transparent !important;
+  height: auto !important;
+  width: auto !important;
+  font-size: 12px !important;
+  text-align: left !important;
+}
+
+.nav input {
+  position: relative;
+  width: 100%;
+  top: 10px;
+  margin-left: 16px;
+}
+
+nav {
+  padding: 5px;
+}
+
+#mobileMenu {
+  background: none;
+  border: 0;
+  padding: 0;
+  width: 35px;
+  height: 29px;
+  background-image: url(images/MobileMenu.png);
+  background-repeat: no-repeat;
+}
+
+#mobileMenu:active {
+  background-image: url(images/MobileMenuPressed.png);
+}
+
+.viewMission {
+  transition: transform 0.5s;
+  position: relative;
+  left: 55px;
+  bottom: 58px;
+  transform: translate(40px, 40px);
+  width: 44px;
+  height: 43px;
+}
+
+.mainLink {
+  font-size: 20px;
+  color: #F3EDED;
+}
+
+.container {
+  max-width: 900px !important;
+}
+
+.missionImageContainer:hover {
+  cursor: pointer;
+}
+
+.missionImageContainer:hover .viewMission {
+  transform: translate(0, 0);
+}
+
+.hopeNowLogo {
+  width: 127px;
+  height: auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
